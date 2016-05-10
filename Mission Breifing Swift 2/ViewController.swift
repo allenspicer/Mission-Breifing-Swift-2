@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         
         if (agentNameArray!.last!.isEmpty){
             self.view.backgroundColor = .redColor()
-            🐔.text = ""
+            🐔.text = "MISSION COMPROMISED"
             🐠.text = "INVALID"
         }else{
             self.view.backgroundColor = .greenColor()
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
             let lastName = agentNameArray!.last
             
             🐠.text = "Good evening, Agent \(lastName!)"
-            
+            🐔.textColor = .lightGrayColor()
             🐔.text = "This mission will be an arduous one, fraught with peril. You will cover much strange and unfamiliar territory. Should you choose to accept this mission, Agent \(lastName!), you will certainly be disavowed, but you will be doing your country a great service. This message will self destruct in 5 seconds."
         }
     }
