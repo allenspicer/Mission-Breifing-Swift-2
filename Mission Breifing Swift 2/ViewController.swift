@@ -27,11 +27,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func 🐝(sender: AnyObject) {
-    
         if (🙊.isFirstResponder()){
             🙊.resignFirstResponder()
         }
-        
+    
         let agentNameArray = 🙊.text?.componentsSeparatedByString(" ")
         
         if (agentNameArray!.last!.isEmpty){
