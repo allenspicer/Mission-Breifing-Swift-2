@@ -50,7 +50,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="TIYLogo" translatesAutoresizingMaskIntoConstraints="NO" id="mZ2-BI-6Uf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="TIYLogo" translatesAutoresizingMaskIntoConstraints="NO" id="mZ2-BI-6Uf">
                                 <rect key="frame" x="210" y="392" width="200" height="172"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="172" id="8Rn-he-JvW"/>
@@ -69,6 +69,7 @@
                         <constraints>
                             <constraint firstItem="mZ2-BI-6Uf" firstAttribute="centerX" secondItem="V8X-WS-UaY" secondAttribute="centerX" id="19m-JH-kQp"/>
                             <constraint firstItem="tqf-dO-WcO" firstAttribute="width" secondItem="V8X-WS-UaY" secondAttribute="width" id="3Wa-GW-XtA"/>
+                            <constraint firstItem="mZ2-BI-6Uf" firstAttribute="top" secondItem="V8X-WS-UaY" secondAttribute="bottom" constant="8" id="6Pp-zC-yrT"/>
                             <constraint firstItem="V8X-WS-UaY" firstAttribute="centerX" secondItem="clk-aN-LE0" secondAttribute="centerX" id="6Y9-hY-3zG"/>
                             <constraint firstItem="ffa-aD-8X7" firstAttribute="width" secondItem="V8X-WS-UaY" secondAttribute="width" id="BCh-wu-nrR"/>
                             <constraint firstItem="clk-aN-LE0" firstAttribute="top" secondItem="CC8-Tb-3js" secondAttribute="bottom" constant="10" id="Laf-SF-sKa"/>
