@@ -18,24 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Agent name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tqf-dO-WcO" userLabel="Agent Name Text Field">
-                                <rect key="frame" x="70" y="79" width="480" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Agent name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tqf-dO-WcO" userLabel="Agent Name Text Field">
+                                <rect key="frame" x="60" y="79" width="480" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="hhs-3A-Rqx"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ffa-aD-8X7" userLabel="Agent Password Text Field">
-                                <rect key="frame" x="70" y="117" width="480" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ffa-aD-8X7" userLabel="Agent Password Text Field">
+                                <rect key="frame" x="60" y="113" width="480" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="qOr-wf-65c"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CC8-Tb-3js" userLabel="Authenticate Button">
-                                <rect key="frame" x="252" y="157" width="114" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CC8-Tb-3js" userLabel="Authenticate Button">
+                                <rect key="frame" x="243" y="147" width="114" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Authenticate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -44,48 +44,63 @@
                                     <action selector="🐝:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofs-V8-nef"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Good evening agent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clk-aN-LE0" userLabel="Greeting Label">
-                                <rect key="frame" x="232" y="203" width="154" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good evening agent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clk-aN-LE0" userLabel="Greeting Label">
+                                <rect key="frame" x="223" y="187" width="154" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="TIYLogo" translatesAutoresizingMaskIntoConstraints="NO" id="mZ2-BI-6Uf">
-                                <rect key="frame" x="210" y="392" width="200" height="172"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="172" id="8Rn-he-JvW"/>
-                                    <constraint firstAttribute="width" constant="200" id="I6R-tD-Fit"/>
-                                </constraints>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8X-WS-UaY" userLabel="Mission Briefing Text View">
-                                <rect key="frame" x="69" y="234" width="480" height="150"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8X-WS-UaY" userLabel="Mission Briefing Text View">
+                                <rect key="frame" x="60" y="212" width="480" height="100"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" misplaced="YES" image="TIYLogo" translatesAutoresizingMaskIntoConstraints="NO" id="mZ2-BI-6Uf">
+                                <rect key="frame" x="200" y="320" width="200" height="172"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="172" id="8Rn-he-JvW"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" priority="250" constant="200" id="I6R-tD-Fit"/>
+                                    <constraint firstAttribute="height" constant="85" id="NtF-KJ-kOU"/>
+                                    <constraint firstAttribute="width" constant="97" id="z8i-s7-JLI"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="NtF-KJ-kOU"/>
+                                        <exclude reference="z8i-s7-JLI"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="8Rn-he-JvW"/>
+                                        <exclude reference="I6R-tD-Fit"/>
+                                        <include reference="NtF-KJ-kOU"/>
+                                        <include reference="z8i-s7-JLI"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="mZ2-BI-6Uf" firstAttribute="centerX" secondItem="V8X-WS-UaY" secondAttribute="centerX" id="19m-JH-kQp"/>
                             <constraint firstItem="tqf-dO-WcO" firstAttribute="width" secondItem="V8X-WS-UaY" secondAttribute="width" id="3Wa-GW-XtA"/>
-                            <constraint firstItem="mZ2-BI-6Uf" firstAttribute="top" secondItem="V8X-WS-UaY" secondAttribute="bottom" constant="8" id="6Pp-zC-yrT"/>
+                            <constraint firstItem="mZ2-BI-6Uf" firstAttribute="top" secondItem="V8X-WS-UaY" secondAttribute="bottom" constant="4" id="6Pp-zC-yrT"/>
                             <constraint firstItem="V8X-WS-UaY" firstAttribute="centerX" secondItem="clk-aN-LE0" secondAttribute="centerX" id="6Y9-hY-3zG"/>
                             <constraint firstItem="ffa-aD-8X7" firstAttribute="width" secondItem="V8X-WS-UaY" secondAttribute="width" id="BCh-wu-nrR"/>
-                            <constraint firstItem="clk-aN-LE0" firstAttribute="top" secondItem="CC8-Tb-3js" secondAttribute="bottom" constant="10" id="Laf-SF-sKa"/>
+                            <constraint firstItem="clk-aN-LE0" firstAttribute="top" secondItem="CC8-Tb-3js" secondAttribute="bottom" constant="4" id="Laf-SF-sKa"/>
                             <constraint firstItem="clk-aN-LE0" firstAttribute="centerX" secondItem="CC8-Tb-3js" secondAttribute="centerX" id="SAj-c0-iBN"/>
                             <constraint firstItem="CC8-Tb-3js" firstAttribute="centerX" secondItem="ffa-aD-8X7" secondAttribute="centerX" id="gZb-cO-Cch"/>
-                            <constraint firstItem="V8X-WS-UaY" firstAttribute="top" secondItem="clk-aN-LE0" secondAttribute="bottom" constant="10" id="l4d-Jt-PRp"/>
-                            <constraint firstItem="ffa-aD-8X7" firstAttribute="top" secondItem="tqf-dO-WcO" secondAttribute="bottom" constant="8" id="qBe-O5-Rmv"/>
+                            <constraint firstItem="V8X-WS-UaY" firstAttribute="top" secondItem="clk-aN-LE0" secondAttribute="bottom" constant="4" id="l4d-Jt-PRp"/>
+                            <constraint firstItem="ffa-aD-8X7" firstAttribute="top" secondItem="tqf-dO-WcO" secondAttribute="bottom" constant="4" id="qBe-O5-Rmv"/>
                             <constraint firstItem="ffa-aD-8X7" firstAttribute="centerX" secondItem="tqf-dO-WcO" secondAttribute="centerX" id="rc1-sd-tM9"/>
                             <constraint firstItem="tqf-dO-WcO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="uBC-OZ-rnK"/>
                             <constraint firstItem="V8X-WS-UaY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vXZ-Ws-g4w"/>
-                            <constraint firstItem="CC8-Tb-3js" firstAttribute="top" secondItem="ffa-aD-8X7" secondAttribute="bottom" constant="10" id="vbR-ew-lUL"/>
+                            <constraint firstItem="CC8-Tb-3js" firstAttribute="top" secondItem="ffa-aD-8X7" secondAttribute="bottom" constant="4" id="vbR-ew-lUL"/>
                             <constraint firstItem="V8X-WS-UaY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="zrU-Dp-Meb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5n3-ji-7Id"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="🌂" destination="ffa-aD-8X7" id="BBh-W6-paa"/>
                         <outlet property="🐔" destination="V8X-WS-UaY" id="z3D-a3-wVc"/>
@@ -95,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1100" y="301"/>
+            <point key="canvasLocation" x="1100" y="300"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jK3-yk-gvQ">
