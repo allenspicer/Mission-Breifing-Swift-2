@@ -1,4 +1,4 @@
-# Mission-Breifing-Swift-2
+# Mission-Briefing-Swift-2
 
 This app is the result of a challenge - born of an assignment at TIY. The discussion was whether it's possible to use the emoji functionality of Swift to actually build an app. 
 
